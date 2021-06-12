@@ -6,7 +6,7 @@ export function Navbar() {
 		<div>
 			<nav className="navbar navbar-expand-lg navbar-light bg-light">
 				<a className="navbar-brand" href="#">
-					Navbar
+					Home
 				</a>
 				<button
 					className="navbar-toggler"
@@ -22,21 +22,17 @@ export function Navbar() {
 					className="collapse navbar-collapse"
 					id="navbarNavAltMarkup">
 					<div className="navbar-nav">
-						<a className="nav-link active" href="#">
-							Home <span className="sr-only">(current)</span>
+						<a className="nav-link" href="#">
+							Guitarristas
 						</a>
 						<a className="nav-link" href="#">
-							Features
+							Bajistas
 						</a>
 						<a className="nav-link" href="#">
-							Pricing
+							Bateristas
 						</a>
-						<a
-							className="nav-link disabled"
-							href="#"
-							tabIndex="-1"
-							aria-disabled="true">
-							Disabled
+						<a className="nav-link" href="#">
+							Tecladistas
 						</a>
 					</div>
 				</div>
